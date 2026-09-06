@@ -1,0 +1,16 @@
+final class TestTags {
+    static let backButton = "back_button"
+    static let settingsButton = "settings_button"
+    static let favouriteButton = "favourite_button"
+    static let searchBar = "search_bar"
+    static let filterButton = "filter_button"
+    static let themeLight = "theme_light"
+    static let themeDark = "theme_dark"
+    static let themeSystem = "theme_system"
+    static let statusBadge = "status_badge"
+    static let episodesSection = "episodes_section"
+    static let infoGrid = "info_grid"
+    static let characterName = "character_name"
+    static let emptyContent = "empty_content"
+    static let loadingContent = "loading_content"
+}

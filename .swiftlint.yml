@@ -1,0 +1,40 @@
+# SwiftLint configuration (https://realm.github.io/SwiftLint/)
+
+excluded:
+  - .build
+  - DerivedData
+  - Tests
+
+opt_in_rules:
+  - contains_over_filter_count
+  - contains_over_range_nil_comparison
+  - empty_count
+  - empty_string
+  - first_where
+  - last_where
+  - overridden_super_call
+  - private_action
+  - private_outlet
+  - sorted_first_last
+  - toggle_bool
+
+disabled_rules:
+  - force_cast
+  - trailing_whitespace
+  - vertical_whitespace
+  - line_length
+  - type_name
+  - identifier_name
+  - function_body_length
+  - type_body_length
+  - file_length
+  - cyclomatic_complexity
+  - unused_closure_parameter
+  - redundant_optional_initialization
+  - multiple_closures_with_trailing_closure
+  - redundant_nil_coalescing
+  - force_try
+  - force_unwrapping
+  - trailing_newline
+  - for_where
+  - static_over_final_class

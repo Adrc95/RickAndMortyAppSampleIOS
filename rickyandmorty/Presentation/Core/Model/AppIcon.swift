@@ -1,0 +1,18 @@
+enum AppIcon: String {
+    case backChevron = "icon_back_ios"
+    case calendar = "icon_calendar"
+    case close = "icon_close"
+    case darkMode = "icon_dark_mode"
+    case favourite = "icon_favourite"
+    case favouriteFill = "icon_favourite_fill"
+    case filter = "icon_filter"
+    case gender = "icon_gender"
+    case lightMode = "icon_light_mode"
+    case location = "icon_location"
+    case search = "icon_search"
+    case settings = "icon_settings"
+    case settingsSuggest = "icon_settings_suggest"
+    case systemMode = "icon_system_mode"
+    case world = "icon_world"
+    case error = "placeholder_error"
+}

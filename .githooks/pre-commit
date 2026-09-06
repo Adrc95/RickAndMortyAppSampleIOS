@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if ! command -v swiftlint >/dev/null 2>&1; then
+  echo "warning: SwiftLint no está instalado. Saltando linting (brew install swiftlint)"
+  exit 0
+fi
+
+cd "$(git rev-parse --show-toplevel)"
+
+swiftlint lint --strict
